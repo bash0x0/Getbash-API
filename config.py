@@ -1,5 +1,5 @@
 api = {
-    "host": "0.0.0.0",
+    "host": "127.0.0.1",
     "port": 8000,
     "reload": False,
     "workers": 1,
