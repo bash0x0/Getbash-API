@@ -13,3 +13,16 @@ pip3 install -r requirements.txt
 ```
 sudo bash startAsService.sh
 ```
+
+
+## How to restart api ##
+
+Commands below shows how start, stop and restart the api service.
+
+```
+service bashapi start
+
+service bashapi stop
+
+service bashapi restart
+```
