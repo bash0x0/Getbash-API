@@ -1,0 +1,14 @@
+[Unit]
+Description=Bash0x0 API
+After=network.target
+
+[Service]
+Type=simple
+User=apiuser
+WorkingDirectory=/opt/api
+ExecStart=/usr/bin/python3 /opt/api/run.py
+
+#Restart=always
+
+[Install]
+WantedBy=multi-user.target
